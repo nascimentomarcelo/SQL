@@ -1,0 +1,182 @@
+{
+  "Carros": [
+    {
+      "Codigo": 1,
+      "Placa": "123ABC",
+      "Marca": "PEUGEOT",
+      "Modelo": "208",
+      "Ano": 2022,
+      "Nome_Motorista": "Pedro Lima"
+    },
+    {
+      "Codigo": 2,
+      "Placa": "456DEF",
+      "Marca": "HYUNDAI",
+      "Modelo": "HB20",
+      "Ano": 2021,
+      "Nome_Motorista": "João Oliveira"
+    },
+    {
+      "Codigo": 3,
+      "Placa": "281MNS",
+      "Marca": "CHEVROLET",
+      "Modelo": "ONIX",
+      "Ano": 2023,
+      "Nome_Motorista": "Marcelo Silva"
+    }
+  ],
+  "Viagens": [
+    {
+      "Id": 1,
+      "Kms": 50,
+      "Valor": 100.00,
+      "Bairro_Partida": "Floresta",
+      "Bairro_Destino": "Centro",
+      "Taxa_Adicional": 10.00,
+      "Cidade_Destino": "Canoas",
+      "Viagem_TIPO": 1,
+      "fk_Carro_Codigo": 1
+    },
+    {
+      "Id": 2,
+      "Kms": 20,
+      "Valor": 50.00,
+      "Bairro_Partida": "Moinhos de Vento",
+      "Bairro_Destino": "Zona Sul",
+      "Taxa_Adicional": 5.00,
+      "Cidade_Destino": "Porto Alegre",
+      "Viagem_TIPO": 0,
+      "fk_Carro_Codigo": 2
+    },
+    {
+      "Id": 3,
+      "Kms": 150,
+      "Valor": 200.00,
+      "Bairro_Partida": "Centro",
+      "Bairro_Destino": "Centro",
+      "Taxa_Adicional": 15.00,
+      "Cidade_Destino": "Dois Irmão",
+      "Viagem_TIPO": 1,
+      "fk_Carro_Codigo": 3
+    },
+    {
+      "Id": 4,
+      "Kms": 30,
+      "Valor": 60.00,
+      "Bairro_Partida": "Tristeza",
+      "Bairro_Destino": "Alegria",
+      "Taxa_Adicional": 8.00,
+      "Cidade_Destino": "Porto Alegre",
+      "Viagem_TIPO": 0,
+      "fk_Carro_Codigo": 1
+    },
+    {
+      "Id": 5,
+      "Kms": 80,
+      "Valor": 150.00,
+      "Bairro_Partida": "Bom Fim",
+      "Bairro_Destino": "Centro",
+      "Taxa_Adicional": 12.00,
+      "Cidade_Destino": "Canela",
+      "Viagem_TIPO": 1,
+      "fk_Carro_Codigo": 2
+    },
+    {
+      "Id": 6,
+      "Kms": 15,
+      "Valor": 40.00,
+      "Bairro_Partida": "Moinhos de Vento",
+      "Bairro_Destino": "Partenon",
+      "Taxa_Adicional": 6.00,
+      "Cidade_Destino": "Porto Alegre",
+      "Viagem_TIPO": 0,
+      "fk_Carro_Codigo": 3
+    },
+    {
+      "Id": 7,
+      "Kms": 100,
+      "Valor": 180.00,
+      "Bairro_Partida": "Jardim Botânico",
+      "Bairro_Destino": "Centro",
+      "Taxa_Adicional": 20.00,
+      "Cidade_Destino": "Canoas",
+      "Viagem_TIPO": 1,
+      "fk_Carro_Codigo": 1
+    },
+    {
+      "Id": 8,
+      "Kms": 25,
+      "Valor": 55.00,
+      "Bairro_Partida": "Centro Histórico",
+      "Bairro_Destino": "Moinhos de Vento",
+      "Taxa_Adicional": 7.00,
+      "Cidade_Destino": "Porto Alegre",
+      "Viagem_TIPO": 0,
+      "fk_Carro_Codigo": 2
+    },
+    {
+      "Id": 9,
+      "Kms": 120,
+      "Valor": 220.00,
+      "Bairro_Partida": "Centro",
+      "Bairro_Destino": "Hamburgo Velho",
+      "Taxa_Adicional": 18.00,
+      "Cidade_Destino": "Novo Hamburgo",
+      "Viagem_TIPO": 1,
+      "fk_Carro_Codigo": 3
+    },
+    {
+      "Id": 10,
+      "Kms": 40,
+      "Valor": 80.00,
+      "Bairro_Partida": "Moinhos de Vento",
+      "Bairro_Destino": "Centro",
+      "Taxa_Adicional": 9.00,
+      "Cidade_Destino": "Porto Alegre",
+      "Viagem_TIPO": 0,
+      "fk_Carro_Codigo": 1
+    }
+  ],
+  "Passageiros": [
+    {
+      "CPF": "12345678910",
+      "Nome": "Gabriel Feliz",
+      "Email": "gabriel.f@email.com",
+      "Telefone": "123456789",
+      "Bairro": "Partenon",
+      "Meio_Pagamento": "Cartão"
+    },
+    {
+      "CPF": "98765432101",
+      "Nome": "Maria Sou",
+      "Email": "maria.sou@email.com",
+      "Telefone": "555123456",
+      "Bairro": "Moinho velho",
+      "Meio_Pagamento": "Dinheiro"
+    },
+    {
+      "CPF": "11122233344",
+      "Nome": "Joana Dick",
+      "Email": "joaninha@email.com",
+      "Telefone": "987654321",
+      "Bairro": "Tristeza",
+      "Meio_Pagamento": "PIX"
+    },
+    {
+      "CPF": "99988877766",
+      "Nome": "Guilherme Barros",
+      "Email": "gui.barros@email.com",
+      "Telefone": "888999000",
+      "Bairro": "Alegria",
+      "Meio_Pagamento": "Dinheiro"
+    },
+    {
+      "CPF": "55566677788",
+      "Nome": "Ana Santos",
+      "Email": "ana.santos@email.com",
+      "Telefone": "777222333",
+      "Bairro": "Floresta",
+      "Meio_Pagamento": "Cartão"
+    }
+  ]
+}
